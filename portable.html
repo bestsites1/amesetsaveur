@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Bienvenue chez Ames et Saveurs Bapaume
+    </title>
+    <style>
+        body {
+            background-image: url('restaurant.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+            margin: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #017bf5;
+            text-decoration: underline;
+        }
+
+        .button {
+            cursor: pointer;
+            border: 1px solid #000b;
+            background-color: rgba(24, 100, 171, 0.1);
+            height: 100px;
+            width: 200px;
+            color: #fff;
+            font-size: 1.5em;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+            padding: 16px 32px;
+            text-align: center;
+            display: inline-block;
+            transition-duration: 0.4s;
+            font-style: italic;
+        }
+
+        .button1 {
+            background-color: transparent;
+            color: white;
+            border: 2px solid #000;
+        }
+
+        .button1:hover {
+            background-color: #fff;
+            color: black;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: transparent;
+            min-width: 200px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            color: #83F83F;
+        }
+
+        /* Responsive styles for mobile */
+        @media screen and (max-width: 768px) {
+            h1, h3 {
+                font-size: 1.2em;
+                padding: 0 10px;
+                text-align: center;
+            }
+
+            .button {
+                width: 90%;
+                height: auto;
+                font-size: 1.2em;
+                padding: 12px;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin: 5px;
+            }
+
+            .dropdown-content a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <br />
+    <h3 align="center">
+        <font face="Miniver" color="#fff" size="6" class="italic">
+            <a href="#">Accueil</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Menu</a>
+        </font>
+    </h3>
+
+    <br /><br />
+    <h1 align="center">
+        <font face="Miniver" color="#fff" size="7" class="italic">
+            Bienvenue chez Ames et Saveurs Bapaume<br />
+            L’adresse où les saveurs prennent vie
+        </font>
+    </h1>
+    <br />
+    <h3 align="center">
+        <font face="Miniver" color="#fff" size="2" class="italic">
+            <a href="menu.html">
+                <button class="button button1">Passer une commande</button>
+            </a>
+        </font>
+    </h3>
+
+    <h3 align="center">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/amesetsaveurs">
+            <img src="Facebook.png" alt="Facebook" width="50" height="50" />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/association__chlorobulle/">
+            <img src="images.jfif" alt="Instagram" width="50" height="50" />
+        </a>
+    </h3>
+</body>
+
+</html>
